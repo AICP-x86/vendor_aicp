@@ -227,6 +227,9 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 # CMSDK
 include vendor/aicp/configs/cmsdk_common.mk
 
+# AmbientSDK
+include vendor/aicp/build/core/config.mk
+
 # SuperSU
 #PRODUCT_COPY_FILES += \
 #    vendor/aicp/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
